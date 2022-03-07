@@ -18,19 +18,19 @@ There are three separate scripts that need to be executed for this project, whil
 
 ### III. Files Description
 
--app
---templates                 (template folder)__
----go.html                  (.html file for API)__
----master.html              (.html file for API)__
---run.py                    (.py file to run the API)__
--data__
---disaster_categories.csv   (.csv file for categories of messages)__
---disaster_messages.csv     (.csv file for raw messages)__
---DisasterResponse.db       (.db file for cleaned data in the database)__
---process_data.py           (.py file to build the ETL pipeline and generate the .db database file)__
--models__
---train_classifier.py       (.py file to build, train and save the model)__
---classifier.pkl            (.pkl file that saved the model)__
+1. app
+2. templates                 (template folder)
+3. go.html                  (.html file for API)
+4. master.html              (.html file for API)
+5. run.py                    (.py file to run the API)
+6. data
+7. disaster_categories.csv   (.csv file for categories of messages)
+8. disaster_messages.csv     (.csv file for raw messages)
+9. DisasterResponse.db       (.db file for cleaned data in the database)
+10. process_data.py           (.py file to build the ETL pipeline and generate the .db database file)
+11. models
+12. train_classifier.py       (.py file to build, train and save the model)
+13. classifier.pkl            (.pkl file that saved the model, too large to load onto github)
 
 ### IV. Acknowledgements
 The project opportunity is offered by Udacity Data Scientist NanoDegree Program and the date is sourced from Figure Eight.
